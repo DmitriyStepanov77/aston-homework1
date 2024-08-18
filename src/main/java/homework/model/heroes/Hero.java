@@ -1,6 +1,9 @@
-package homework.model;
+package homework.model.heroes;
 
-public abstract class Hero {
+import homework.model.Mortal;
+import homework.model.enemys.Enemy;
+
+public abstract class Hero implements Mortal {
     private final String name;
     private final int damage;
     private int health;
@@ -27,5 +30,16 @@ public abstract class Hero {
 
     public void takeDamage(int damage) {
         health -= damage;
+    }
+
+    public boolean isAlive() {
+        return health > 0;
+    }
+
+    protected void checkHealth() {
+        System.out.println("У героя " + getName() + " осталось " + getHealth() + " здоровья.");
+        if(!isAlive()) {
+            System.out.println("Герой " + getName() + " убит.");
+        }
     }
 }

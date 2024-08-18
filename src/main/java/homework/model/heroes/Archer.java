@@ -1,6 +1,8 @@
-package homework.model;
+package homework.model.heroes;
 
-public class Archer extends Hero{
+import homework.model.enemys.Enemy;
+
+public class Archer extends Hero {
 
     public Archer(String name, int damage, int health) {
         super(name, damage, health);
@@ -8,9 +10,9 @@ public class Archer extends Hero{
 
     @Override
     public <T extends Enemy> void attackEnemy(T enemy) {
-        System.out.println("Лучник " + getName() + " атакует врага.");
-        enemy.takeDamage(getDamage()*2);
-        if(!enemy.isAlive())
-            System.out.println("Враг повержен лучником " + getName() + ".");
+        int returnDamage = enemy.takeDamage(getDamage() * 2, getName());
+        takeDamage(returnDamage);
+        System.out.println(enemy.getNames() + " наносит герою " + getName() + " " + returnDamage + " урона");
+        checkHealth();
     }
 }

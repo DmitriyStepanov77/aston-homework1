@@ -4,11 +4,34 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e08eaeb9-495d-4fb1-a6e7-b9d8f2dc77e9" name="Changes" comment="" />
+    <list default="true" id="e08eaeb9-495d-4fb1-a6e7-b9d8f2dc77e9" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/homework/BattleGround.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/homework/BattleGround.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/homework/model/Mortal.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/homework/model/Mortal.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/homework/model/enemys/Enemy.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/homework/model/enemys/Enemy.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/homework/model/enemys/Vampire.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/homework/model/enemys/Vampire.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/homework/model/enemys/Zombie.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/homework/model/enemys/Zombie.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/homework/model/heroes/Archer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/homework/model/heroes/Archer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/homework/model/heroes/Hero.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/homework/model/heroes/Hero.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/homework/model/heroes/Mage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/homework/model/heroes/Mage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/homework/model/heroes/Warrior.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/homework/model/heroes/Warrior.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Interface" />
+        <option value="Enum" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="ProjectId" id="2kmLLsECIiIANAKuGBN0swWFML4" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
@@ -18,11 +41,21 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "Application.BattleGround.executor": "Run",
+    "Application.TrainingGround.executor": "Run",
+    "Maven.homework1 [package].executor": "Run",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "git-widget-placeholder": "master",
     "kotlin-language-version-configured": "true"
   }
 }]]></component>
+  <component name="RecentsManager">
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="homework.model" />
+    </key>
+  </component>
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
